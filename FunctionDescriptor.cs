@@ -9,14 +9,7 @@ namespace CodeFirstStoreFunctions
 
     internal class FunctionDescriptor
     {
-        private readonly string _name;
-        private readonly EdmType[] _returnTypes;
-        private readonly ParameterDescriptor[] _parameters;
-        private readonly string _resultColumnName;
-        private readonly string _databaseSchema;
-        private readonly StoreFunctionKind _storeFunctionKind;
-        private readonly bool? _isBuiltIn;
-        private readonly bool? _isNiladic;
+
 
         public FunctionDescriptor(string name, IEnumerable<ParameterDescriptor> parameters,
             EdmType[] returnTypes, string resultColumnName, string databaseSchema, StoreFunctionKind storeFunctionKind, bool? isBuiltIn, bool? isNiladic)
