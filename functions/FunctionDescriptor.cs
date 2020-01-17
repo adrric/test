@@ -10,7 +10,7 @@ namespace CodeFirstStoreFunctions
     internal class FunctionDescriptor
     {
 
-
-      
+        private string test;
+       asdf
     }
 }
