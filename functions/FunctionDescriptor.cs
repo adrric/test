@@ -15,5 +15,7 @@ namespace CodeFirstStoreFunctions
         private string name;
 
         private string path;
+
+        private string extension;
     }
 }
