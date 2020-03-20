@@ -11,6 +11,6 @@ namespace CodeFirstStoreFunctions
     {
 
         private string test;
-       asdf
+        private int id;
     }
 }
