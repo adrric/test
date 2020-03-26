@@ -12,7 +12,5 @@ namespace CodeFirstStoreFunctions
 
         private string test;
         private int id;
-
-        private string path;
     }
 }
